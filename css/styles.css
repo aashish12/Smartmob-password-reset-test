@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  background-color: #f0f1fc;
+}
+
+@media only screen and (max-width: 37.5em) {
+  body {
+    background-color: white;
+  }
+}
+
+.mt-sm {
+  margin-top: 1rem;
+}
+
+.mt-md {
+  margin-top: 1.5rem;
+}
+
+.mt-l {
+  margin-top: 2rem;
+}
+
+.mt-xl {
+  margin-top: 2.5rem;
+}
+
+.mt-xxl {
+  margin-top: 3.5rem;
+}
+
+.mb-sm {
+  margin-bottom: .1rem;
+}
+
+.mb-md {
+  margin-bottom: 1.5rem;
+}
+
+.mb-l {
+  margin-bottom: 2rem;
+}
+
+.mb-xl {
+  margin-bottom: 2.5rem;
+}
+
+.mb-xxl {
+  margin-bottom: 3.5rem;
+}
+
+.password-reset__container {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 2rem 3.5rem -1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 3.5rem -1rem rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .password-reset__container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .password-reset__container {
+    width: 100%;
+    border-radius: 0;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+}
+
+.password-reset__title {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+
+.password-reset__form-section {
+  width: 40%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .password-reset__form-section {
+    width: 100%;
+  }
+}
+
+.password-reset__image-box {
+  width: 60%;
+  position: absolute;
+  top: -3.3rem;
+  right: -6.2rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .password-reset__image-box {
+    display: none;
+  }
+}
+
+.password-reset__image {
+  height: 100%;
+  width: 100%;
+}
+
+.password-reset__button--rounded {
+  border-radius: 2rem;
+  padding: 0 3.2rem;
+}
+
+.password-reset__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.password-reset__footer-link, .password-reset__footer-copy {
+  font-size: 1rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .password-reset__footer-link, .password-reset__footer-copy {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .password-reset__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.password-reset__footer-link {
+  color: #fb812f;
+}
+
+.password-reset__footer-copy {
+  color: #8f8f8f;
+}
+
+.sb-logo {
+  width: 80%;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .sb-logo {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .sb-logo {
+    width: 80%;
+  }
+}
+
+.sb-logo__image {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=styles.css.map */

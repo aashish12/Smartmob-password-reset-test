@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+//base colors
+$background-color-gray: rgb(240, 241, 252);
+$background-color-white: rgb(255, 255, 255);
+
+$primary-color: rgb(2, 180, 175);
+$secondary-color: rgb(251, 129, 47);
+
+$gray-light: rgb(143, 143, 143);
+
+// main font
+$main-font: 'Lato', sans-serif;
+
+// transition 
+$base-transition: all .5s ease-in-out;
+
+// responsive breakpoints
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200/16 = 75em
+$bp-large: 62.5em; // 1000/16 = 62.5em
+$bp-medium: 50em; // 800/16 = 50em
+$bp-small: 37.5em; // 600/16 = 37.5em
